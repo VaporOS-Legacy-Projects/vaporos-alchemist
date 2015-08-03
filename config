@@ -1,2 +1,2 @@
-install=
+install=gedit:amd64 file-roller:amd64 nautilus-open-terminal:amd64 bash-completion git:amd64 unzip:amd64 pastebinit:amd64 ufw gufw gksu:amd64 openssh-server:amd64 iotop:amd64 htop:amd64 lsof:amd64 anacron:amd64 mesa-utils:amd64 gnome-tweak-tool trim-support kodi vlc libav-tools vaporos-binds-xbox360 screen:amd64 steamos-beta-repo
 remove=
