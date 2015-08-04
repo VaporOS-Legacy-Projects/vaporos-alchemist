@@ -102,11 +102,11 @@ EOF
 #
 # Run aticonfig if an AMD card is present
 #
-if [ -n "$(lspci|grep VGA|grep -i 'AMD\|ATI')" ]; then
-	if [ ! -n "$(lspci|grep VGA|grep NVIDIA)" ]; then
-		chroot /target update-alternatives --set glx /usr/lib/fglrx
-	fi
-fi
+#if [ -n "$(lspci|grep VGA|grep -i 'AMD\|ATI')" ]; then
+#	if [ ! -n "$(lspci|grep VGA|grep NVIDIA)" ]; then
+#		chroot /target update-alternatives --set glx /usr/lib/fglrx
+#	fi
+#fi
 
 #
 # Disable mouse acceleration
